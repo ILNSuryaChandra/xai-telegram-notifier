@@ -5,7 +5,8 @@ This script monitors your specified screen session and sends updates to Telegram
 ## Installation
 1. setting up a bot:
 
-      # Start a Chat with BotFather: t.me\BotFather
+      #Start a Chat with BotFather:
+   t.me\BotFather
    
       Start a chat with BotFather by clicking the "Start" button.
 
@@ -37,7 +38,8 @@ This script monitors your specified screen session and sends updates to Telegram
 
       #Create a channel and add the bot to the channel as an admin.
 
-      #Use the following bot to get the chat ID of your channel: t.me/chat_id_echo_bot
+      #Use the following bot to get the chat ID of your channel:
+   t.me/chat_id_echo_bot
    
       #The chat ID of the channel looks like "-1001234567890"
 
