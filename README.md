@@ -7,6 +7,7 @@ This script monitors your specified screen session and sends updates to Telegram
 
 
    Visit BotFather at t.me\BotFather
+   
       Click the "Start" button to initiate a chat.
       Create a New Bot:
       
