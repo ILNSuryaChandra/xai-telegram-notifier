@@ -103,6 +103,12 @@ screen -r monitor
 and press ctrl + c
 
 to delete the monitor screen:
+use the following command from the main console
 ```bash
 screen -X -S monitor quit
+```
+
+use the following command to see the list of all the running screens:
+```bash
+screen -ls
 ```
