@@ -93,8 +93,9 @@ extracting and running the script
 
 iii. Detach the screen:
       press CTRL + A + D to detach the screen
+      
 
-**To stop the receiving notifications**:
+## **To stop receiving notifications**
 reopen the screen by typing
 ```bash
 screen -r monitor
