@@ -1,4 +1,4 @@
-PS: If any nuclear war occurs because of this, I am not responsible. this is my first time using GitHub to distribute something. use at your discretion
+PS: If any nuclear war occurs because of this, I am not responsible. this is my first time using GitHub to distribute something. use at your own discretion
 
 # XAI Telegram Notifier
 
