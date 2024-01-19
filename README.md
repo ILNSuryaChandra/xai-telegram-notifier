@@ -72,7 +72,7 @@ i. Start a screen
 
 ii. Run the setup script:
 
-for a simpler status message:
+for a simpler status message(buggy:
    ```bash
    #Downloading required files
    curl -L -o xai-telegram-notifier.zip https://github.com/ILNSuryaChandra/xai-telegram-notifier/releases/latest/download/xai-telegram-notifier.zip
