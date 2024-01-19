@@ -5,48 +5,47 @@ This script monitors your specified screen session and sends updates to Telegram
 ## Installation
 1. setting up a bot:
 
-      Start a Chat with BotFather:
-         open BotFather at
+      # Start a Chat with BotFather:
    
                t.me\BotFather
    
       Start a chat with BotFather by clicking the "Start" button.
 
 
-      Create a New Bot:
+      #Create a New Bot:
          Send the /newbot command to BotFather. Follow the instructions, and BotFather will guide you through the process of creating a new bot.
 
 
-      Choose a Name:
-         BotFather will ask you to choose a name for your bot. This is the name that users will see when interacting with your bot. Pick a unique and descriptive name.
+      #Choose a Name:
+         BotFather will ask you to choose a name for your bot. This is the name that users will see when interacting with your bot. You can pick a unique and descriptive name.
 
 
-      Choose a Username:
+      #Choose a Username:
          After selecting a name, BotFather will ask you to choose a username for your bot. The username must end with "bot" (e.g., "my_cool_bot").
 
 
-      Receive Token:
-         Once you've chosen a username, BotFather will generate a token for your new bot. The token is a long string of characters and numbers. Keep this token secure, as it is the key to interacting with the Telegram Bot API on behalf of your bot.
+      #Receive Token:
+         Once you've chosen a username, BotFather will generate a token for your new bot. The token is a long string of characters and numbers. Please keep this token secure, as it is the key to interacting with the Telegram Bot API for your bot.
 
 
 
-      Bot Created:
+      #Bot Created:
          BotFather will provide a message indicating that your bot has been created. It will also give you a link to your bot's profile.
 
 
-      save this message as it contains your bot token.
+      #save this message as it contains your bot token.
    
-      open the bot you just created (search for the bot's username) and start it.
+      #open the bot you just created (search for the bot's username) and start it.
 
-      Create a group or a channel and add the bot to the group or channel as an admin.
+      #Create a group or a channel and add the bot to the group or channel as an admin.
 
-      send a test message to the group or channel.
+      #send a test message to the group or channel.
    
       open
 
          https://api.telegram.org/bot<YourBotToken>/getUpdates
 
-      replace <YourBotToken> with the bot token provided to you by the BotFather
+      #replace <YourBotToken> with the bot token provided to you by the BotFather
 
       you will find something like this
       ```json
@@ -57,17 +56,17 @@ This script monitors your specified screen session and sends updates to Telegram
       }
       ```
       
-      here "id" value is the chat ID of your group or channel in which you want to receive the notifications in. Don't forget that - is also a part of the id. "-1001234567890" is the id in the above example 
+      here "id" value is the chat ID of your group or channel in which you want to receive the notifications. Don't forget that - is also a part of the id. "-1001234567890" is the id in the above example 
       
 
-3. setting up notifications
+2. setting up notifications
 
 
 i. Start a screen
 
    ```bash
    sudo apt update
-   screen -S telegram_monitor
+   screen -S monitor
    ```
 
 ii. Run the setup script:
@@ -99,11 +98,22 @@ extracting and running the script
    ./setup.sh
    ```
    follow the instructions on the screen:
-   1. enter your chat ID (chat ID which you have obtained while setting up the bot. dont forget -)
+   1. enter your chat ID (chat ID which you have obtained while setting up the bot. Don't forget "-")
    2. enter your bot token which was given by BotFaher
    3. enter the time interval in seconds (more than 1800 which is 30 minutes recommended to avoid the rate limit)
-   4. enter name of the screen in which the node is running
+   4. enter the name of the screen in which the node is running (most of us named it as "xai")
 
 iii. Detach the screen:
       press CTRL + A + D to detach the screen
 
+**To stop the receiving notifications**:
+reopen the screen by typing
+```bash
+screen -r monitor
+```
+and press ctrl + c
+
+to delete the monitor screen:
+```bash
+screen -X -S monitor quit
+```
