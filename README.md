@@ -59,6 +59,7 @@ i. Start a screen
    ```
 
 ii. Run the setup script:
+
 for a simpler status message:
    ```bash
    #Downloading required files
