@@ -4,23 +4,35 @@ This script monitors your specified screen session and sends updates to Telegram
 
 ## Installation
 1. setting up a bot:
+
       Start a Chat with BotFather:
-         Open the Telegram app and search for "BotFather" or go directly to @BotFather. Start a chat with BotFather by clicking the "Start" button.
+         open BotFather at
    
+               t.me\BotFather
+   
+      Start a chat with BotFather by clicking the "Start" button.
+
+
       Create a New Bot:
          Send the /newbot command to BotFather. Follow the instructions, and BotFather will guide you through the process of creating a new bot.
-   
+
+
       Choose a Name:
          BotFather will ask you to choose a name for your bot. This is the name that users will see when interacting with your bot. Pick a unique and descriptive name.
-   
+
+
       Choose a Username:
          After selecting a name, BotFather will ask you to choose a username for your bot. The username must end with "bot" (e.g., "my_cool_bot").
-   
+
+
       Receive Token:
          Once you've chosen a username, BotFather will generate a token for your new bot. The token is a long string of characters and numbers. Keep this token secure, as it is the key to interacting with the Telegram Bot API on behalf of your bot.
 
+
+
       Bot Created:
          BotFather will provide a message indicating that your bot has been created. It will also give you a link to your bot's profile.
+
 
       save this message as it contains your bot token.
    
@@ -48,7 +60,7 @@ This script monitors your specified screen session and sends updates to Telegram
       here "id" value is the chat ID of your group or channel in which you want to receive the notifications in.
       
 
-2. setting up notifications
+3. setting up notifications
 
 
 i. Start a screen
