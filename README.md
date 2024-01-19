@@ -57,7 +57,7 @@ This script monitors your specified screen session and sends updates to Telegram
       }
       ```
       
-      here "id" value is the chat ID of your group or channel in which you want to receive the notifications in.
+      here "id" value is the chat ID of your group or channel in which you want to receive the notifications in. Don't forget that - is also a part of the id. "-1001234567890" is the id in the above example 
       
 
 3. setting up notifications
@@ -99,7 +99,7 @@ extracting and running the script
    ./setup.sh
    ```
    follow the instructions on the screen:
-   1. enter your chat ID (chat ID which you have obtained while setting up the bot
+   1. enter your chat ID (chat ID which you have obtained while setting up the bot. dont forget -)
    2. enter your bot token which was given by BotFaher
    3. enter the time interval in seconds (more than 1800 which is 30 minutes recommended to avoid the rate limit)
    4. enter name of the screen in which the node is running
