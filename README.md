@@ -47,19 +47,12 @@ This script monitors your specified screen session and sends updates to Telegram
 
       #replace <YourBotToken> with the bot token provided to you by the BotFather
 
-      you will find something like this
-      ```json
-      "chat": {
-      "id": -1001234567890,
-      "title": "Your Group Name",
-       ...
-      }
-      ```
-      
-      here "id" value is the chat ID of your group or channel in which you want to receive the notifications. Don't forget that - is also a part of the id. "-1001234567890" is the id in the above example 
+      #just copy everything and ask chatGPT to get the chat ID of the telegram channel or group. if you don't find anything in the page, just send another message in the group or channel and refresh the page.
+
+      #Don't forget that '-' is also a part of the id. example: "-1001234567890"
       
 
-2. setting up notifications
+3. setting up notifications
 
 
 i. Start a screen
