@@ -96,6 +96,7 @@ iii. Detach the screen:
       
 
 ## **To stop receiving notifications**
+
 reopen the screen by typing
 ```bash
 screen -r monitor
