@@ -54,9 +54,8 @@ This script monitors your specified screen session and sends updates to Telegram
 i. Start a screen
 
    ```bash
-      sudo apt update
-      sudo apt install screen
-      screen -S telegram_monitor
+   sudo apt update
+   screen -S telegram_monitor
    ```
 
 ii. Run the setup script:
