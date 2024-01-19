@@ -8,43 +8,41 @@ This script monitors your specified screen session and sends updates to Telegram
 ### 1. Setting up a bot:
 
 
-   #Visit BotFather
-
-      open t.me\BotFather
-   
-      Click the "Start" button to initiate a chat.
-      Create a New Bot:
+   #Visit BotFather:
+      >open t.me\BotFather
+      >Click the "Start" button to initiate a chat.
+      >Create a New Bot:
       
 
    #Send the /newbot command to BotFather.
-      Follow the instructions provided by BotFather to create a new bot.
+      >Follow the instructions provided by BotFather to create a new bot.
 
    #Choose a Name:
-      BotFather will prompt you to choose a name for your bot. You can pick a unique and descriptive name that users will see when interacting with your bot.
+      >BotFather will prompt you to choose a name for your bot. You can pick a unique and descriptive name that users will see when interacting with your bot.
 
    #Choose a Username:
-      After selecting a name, BotFather will ask you to choose a username. The username must end with "bot" (e.g., "my_cool_bot").
+      >After selecting a name, BotFather will ask you to choose a username. The username must end with "bot" (e.g., "my_cool_bot").
 
    #Receive Token:
-      Upon choosing a username, BotFather will generate a token for your bot. Keep this token secure, as it is crucial for interacting with the Telegram Bot API.
+      >Upon choosing a username, BotFather will generate a token for your bot. Keep this token secure, as it is crucial for interacting with the Telegram Bot API.
 
    #Bot Created:
-      BotFather will confirm that your bot has been created and provide a link to your bot's profile.
+      >BotFather will confirm that your bot has been created and provide a link to your bot's profile.
 
    #Save the message as it contains your bot token.
 
    #Open Your Bot and Start It:
-      Locate the bot you created by searching for its username.
-      Start the bot.
+      >Locate the bot you created by searching for its username.
+      >Start the bot.
 
    #Create a Channel:
-      Create a channel in Telegram.
+      >Create a channel in Telegram.
 
    #Add the Bot to the Channel:
-      Add the bot to the channel as an admin.
+      >Add the bot to the channel as an admin.
 
    #Get the Chat ID of the Channel:
-      Use the t.me/chat_id_echo_bot bot to get the chat ID of your channel.
+      >Use the t.me/chat_id_echo_bot bot to get the chat ID of your channel.
       
    The chat ID looks like "-1001234567890" (note the '-' is also a part of the ID).      
 
