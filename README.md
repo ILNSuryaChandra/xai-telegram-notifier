@@ -1,11 +1,11 @@
-PS: If any nuclear war occurs because of this, i am not responsible
+PS: If any nuclear war occurs because of this, I am not responsible. this is my first time using GitHub to distribute something. use at your discretion
 
 # XAI Telegram Notifier
 
 This script monitors your specified screen session and sends updates to Telegram.
 
 ## Installation
-1. setting up a bot:
+### 1. Setting up a bot:
 
 
    #Visit BotFather
@@ -21,7 +21,7 @@ This script monitors your specified screen session and sends updates to Telegram
 
    #Choose a Name:
       
-      BotFather will prompt you to choose a name for your bot. Pick a unique and descriptive name that users will see when interacting with your bot.
+      BotFather will prompt you to choose a name for your bot. You can pick a unique and descriptive name that users will see when interacting with your bot.
 
    #Choose a Username:
       
@@ -55,8 +55,7 @@ This script monitors your specified screen session and sends updates to Telegram
       Use the t.me/chat_id_echo_bot bot to get the chat ID of your channel.
       The chat ID looks like "-1001234567890" (note the '-' as part of the ID).      
 
-3. setting up notifications
-
+### 2. Setting up notifications
 
 i. Start a screen
 
@@ -74,13 +73,13 @@ for a simpler status message(buggy, not working as intended for now):
    ```
 
 for the exact last message:
-```bash
+   ```bash
    #Downloading required files
    curl -L -o xai-telegram-notifier.zip https://github.com/ILNSuryaChandra/xai-telegram-notifier/releases/download/v1.0.0/xai-telegram-notifier.zip
    ```
 
 extracting and running the script
-```bash
+   ```bash
    #Extracting files
    unzip xai-telegram-notifier.zip
 
