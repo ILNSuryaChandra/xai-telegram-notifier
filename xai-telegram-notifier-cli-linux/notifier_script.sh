@@ -13,8 +13,17 @@ while true; do
     # Filter the lines containing 'ChallengeSubmitted'
     CHALLENGE_SUBMITTED=$(echo "$LAST_OUTPUT" | grep 'ChallengeSubmitted')
 
+    # Extract the timestamp from the last line
+    LAST_TIMESTAMP=$(echo "$LAST_OUTPUT" | grep -Eo '\[.*Z\]' | tail -n 1)
+    
+    # Convert timestamp to Unix timestamp
+    LAST_TIMESTAMP_UNIX=$(date -u -d "$LAST_TIMESTAMP" +"%s")
+
+    # Get current Unix timestamp
+    CURRENT_UNIX_TIMESTAMP=$(date -u +"%s")
+
     # Check if 'ChallengeSubmitted' is found in the last 3 minutes
-    if [[ $(date -u -d"$(echo "$LAST_OUTPUT" | grep -Eo '\[.*Z\]' | tail -n 1)" +"%s") -ge $(date -u -d"3 minutes ago" +"%s") ]] && [ -n "$CHALLENGE_SUBMITTED" ]; then
+    if [ -n "$CHALLENGE_SUBMITTED" ] && [ $((CURRENT_UNIX_TIMESTAMP - LAST_TIMESTAMP_UNIX)) -le 180 ]; then
         ALERT_MESSAGE="Node is working as intended."
     else
         ALERT_MESSAGE="Alert! Node update is older than 3 minutes or 'ChallengeSubmitted' not found."
