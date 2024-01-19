@@ -5,9 +5,7 @@ This script monitors your specified screen session and sends updates to Telegram
 ## Installation
 1. setting up a bot:
 
-      # Start a Chat with BotFather:
-   
-               t.me\BotFather
+      # Start a Chat with BotFather: t.me\BotFather
    
       Start a chat with BotFather by clicking the "Start" button.
 
@@ -39,11 +37,9 @@ This script monitors your specified screen session and sends updates to Telegram
 
       #Create a channel and add the bot to the channel as an admin.
 
-      #Use the following bot to get the chat id of your channel
-
-         t.me/chat_id_echo_bot
+      #Use the following bot to get the chat ID of your channel: t.me/chat_id_echo_bot
    
-      #Chat id of the channel looks like "-1001234567890"
+      #The chat ID of the channel looks like "-1001234567890"
 
       #Don't forget that '-' is also a part of the id.
       
@@ -90,7 +86,7 @@ extracting and running the script
    1. enter your channel's chat ID (chat ID which you have obtained while setting up the bot. Don't forget "-")
    2. enter your bot token which was given by BotFather
    3. enter the time interval in seconds (more than 1800 which is 30 minutes recommended to avoid the rate limit)
-   4. enter the name of the screen in which the node is running (most of us named it as "xai")
+   4. enter the name of the screen in which the node is running (most of us named it "xai")
 
 iii. Detach the screen:
       press CTRL + A + D to detach the screen
