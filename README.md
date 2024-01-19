@@ -80,5 +80,8 @@ ii. Run the setup script:
    follow the instructions on the screen:
    1. enter your chat ID (chat ID which you have obtained while setting up the bot
    2. enter your bot token which was given by BotFaher
-   3. enter the time interval in seconds (more than 1800 recommended to avoid rate limit)
+   3. enter the time interval in seconds (more than 1800 which is 30 minutes recommended to avoid the rate limit)
+
+iii. Detach the screen:
+      press CTRL + A + D to detach the screen
 
