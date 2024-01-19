@@ -5,46 +5,52 @@ This script monitors your specified screen session and sends updates to Telegram
 ## Installation
 1. setting up a bot:
 
-      #Start a Chat with BotFather:
-   t.me\BotFather
-   
-      Start a chat with BotFather by clicking the "Start" button.
 
-
-      #Create a New Bot:
-         Send the /newbot command to BotFather. Follow the instructions, and BotFather will guide you through the process of creating a new bot.
-
-
-      #Choose a Name:
-         BotFather will ask you to choose a name for your bot. This is the name that users will see when interacting with your bot. You can pick a unique and descriptive name.
-
-
-      #Choose a Username:
-         After selecting a name, BotFather will ask you to choose a username for your bot. The username must end with "bot" (e.g., "my_cool_bot").
-
-
-      #Receive Token:
-         Once you've chosen a username, BotFather will generate a token for your new bot. The token is a long string of characters and numbers. Please keep this token secure, as it is the key to interacting with the Telegram Bot API for your bot.
-
-
-
-      #Bot Created:
-         BotFather will provide a message indicating that your bot has been created. It will also give you a link to your bot's profile.
-
-
-      #save this message as it contains your bot token.
-   
-      #open the bot you just created (search for the bot's username) and start it.
-
-      #Create a channel and add the bot to the channel as an admin.
-
-      #Use the following bot to get the chat ID of your channel:
-   t.me/chat_id_echo_bot
-   
-      #The chat ID of the channel looks like "-1001234567890"
-
-      #Don't forget that '-' is also a part of the id.
+   Visit BotFather at t.me\BotFather
+      Click the "Start" button to initiate a chat.
+      Create a New Bot:
       
+
+   Send the /newbot command to BotFather.
+      Follow the instructions provided by BotFather to create a new bot.
+
+   Choose a Name:
+      
+      BotFather will prompt you to choose a name for your bot. Pick a unique and descriptive name that users will see when interacting with your bot.
+
+   Choose a Username:
+      
+      After selecting a name, BotFather will ask you to choose a username. The username must end with "bot" (e.g., "my_cool_bot").
+
+   Receive Token:
+      
+      Upon choosing a username, BotFather will generate a token for your bot. Keep this token secure, as it is crucial for interacting with the Telegram Bot API.
+
+   Bot Created:
+      
+      BotFather will confirm that your bot has been created and provide a link to your bot's profile.
+
+   Save the message as it contains your bot token.
+
+   Open Your Bot and Start It:
+      
+      Locate the bot you created by searching for its username.
+      Start the bot.
+
+   Create a Channel:
+      
+
+   Create a channel in Telegram.
+
+   Add the Bot to the Channel:
+      
+
+   Add the bot to the channel as an admin.
+
+   Get the Chat ID of the Channel:
+      
+      Use the t.me/chat_id_echo_bot bot to get the chat ID of your channel.
+      The chat ID looks like "-1001234567890" (note the '-' as part of the ID).      
 
 3. setting up notifications
 
