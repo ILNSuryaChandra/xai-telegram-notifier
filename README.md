@@ -37,19 +37,15 @@ This script monitors your specified screen session and sends updates to Telegram
    
       #open the bot you just created (search for the bot's username) and start it.
 
-      #Create a group or a channel and add the bot to the group or channel as an admin.
+      #Create a channel and add the bot to the channel as an admin.
 
-      #send a test message to the group or channel.
+      #Use the following bot to get the chat id of your channel
+
+         t.me/chat_id_echo_bot
    
-      open
+      #Chat id of the channel or group looks like "-1001234567890"
 
-         https://api.telegram.org/bot<YourBotToken>/getUpdates
-
-      #replace <YourBotToken> with the bot token provided to you by the BotFather
-
-      #just copy everything and ask chatGPT to get the chat ID of the telegram channel or group. if you don't find anything in the page, just send another message in the group or channel and refresh the page.
-
-      #Don't forget that '-' is also a part of the id. example: "-1001234567890"
+      #Don't forget that '-' is also a part of the id.
       
 
 3. setting up notifications
