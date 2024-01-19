@@ -1,3 +1,5 @@
+PS: If any nuclear war occurs because of this, i am not responsible
+
 # XAI Telegram Notifier
 
 This script monitors your specified screen session and sends updates to Telegram.
@@ -6,7 +8,9 @@ This script monitors your specified screen session and sends updates to Telegram
 1. setting up a bot:
 
 
-   #Visit BotFather at t.me\BotFather
+   #Visit BotFather
+
+      open t.me\BotFather
    
       Click the "Start" button to initiate a chat.
       Create a New Bot:
