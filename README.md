@@ -43,7 +43,7 @@ This script monitors your specified screen session and sends updates to Telegram
 
          t.me/chat_id_echo_bot
    
-      #Chat id of the channel or group looks like "-1001234567890"
+      #Chat id of the channel looks like "-1001234567890"
 
       #Don't forget that '-' is also a part of the id.
       
@@ -87,8 +87,8 @@ extracting and running the script
    ./setup.sh
    ```
    follow the instructions on the screen:
-   1. enter your chat ID (chat ID which you have obtained while setting up the bot. Don't forget "-")
-   2. enter your bot token which was given by BotFaher
+   1. enter your channel's chat ID (chat ID which you have obtained while setting up the bot. Don't forget "-")
+   2. enter your bot token which was given by BotFather
    3. enter the time interval in seconds (more than 1800 which is 30 minutes recommended to avoid the rate limit)
    4. enter the name of the screen in which the node is running (most of us named it as "xai")
 
